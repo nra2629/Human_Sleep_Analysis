@@ -1,0 +1,15 @@
+name: sleep_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - matplotlib
+  - seaborn
+  - requests
+  - ipykernel
+  - pip
+  - pip:
+      - boto3
+      - mne
